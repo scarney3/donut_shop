@@ -37,6 +37,24 @@ DonutShop.prototype.render = function() {
     newRow.appendChild(newCell);
 };
 
+var newStore = document.getElementById('new-store');
+newStore.addEventListener('submit', function(e) {
+  e.preventDefault();
+  var storeName = document.getElementById('storeLocation').value;
+  var minC = parseInt(document.getElementById('minCustomer').value);
+  var maxC = parseInt(document.getElementById('maxCustomer').value);
+  var avgP = parseInt(document.getElementById('avgPurchase').value);
+  // console.log("Running click " + storeName + minC + maxC + avgP);
+  var createStore = new DonutShop(storeName, minC, maxC, avgP);
+  createStore.render();
+});
+
+// var shopData;
+// shopData = ['storeLocation', 'minCustomer', 'maxCustomer', 'avgPurchase'];
+
+// var newData = document.getElementById('shopData');
+// newData.textContent = [shopData];
+
 var downtown = new DonutShop ('Downtown','8', '43', '4.5');
 var capitolhill =new DonutShop ('Capitol Hill','4', '37', '2');
 var southlakeunion = new DonutShop ('South Lake Union', '9','23', '6.33');
