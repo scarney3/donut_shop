@@ -1,0 +1,19 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  background-color: #A62424;
+}
+div {
+  color: #FFB03B;
+}
+table {
+  border: 3px ridge #FFB03B;
+  border-radius: 10px;
+}
+ul p {
+  color: #FFB03B;
+}
+h1 {
+  color: #FFB03B;
+}
