@@ -6,52 +6,81 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Donut Shop</title>
   <link rel="stylesheet" href="">
-  <link href="styles.css" type="text/css" rel="stylesheet"/>
-  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href="styles.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-<h1>Donut Shop Estimated Sales</h1>
-<ul>
-  <p>This program models a donut shop.</p>
-  <p>The program generates a random number of customers per hour based on set parameters, calculates an estimated number of donut sales per hour in relation to this customer number, and adds these together for total sales per day.</p>
-<div>
-<table id="donut-table">
-</div>
-<tr>
-  <th>Location</th>
-  <th scope="col">7:00 AM</th>
-  <th scope="col">8:00 AM</th>
-  <th scope="col">9:00 AM</th>
-  <th scope="col">10:00 AM</th>
-  <th scope="col">11:00 AM</th>
-  <th scope="col">12:00 PM</th>
-  <th scope="col">1:00 PM</th>
-  <th scope="col">2:00 PM</th>
-  <th scope="col">3:00 PM</th>
-  <th scope="col">4:00 PM</th>
-  <th scope="col">5:00 PM</th>
-  <th scope="col">Total</th>
-</tr>
-<form action="index.html" id="new-store">
-  <p>Location Name:
-    <input type="text" id="storeLocation"/>
-  </p>
-  <p>Minimum Customers:
-    <input type="text" id="minCustomer"/>
-  </p>
-  <p>Maximum Customers:
-    <input type="text" id="maxCustomer"/>
-  </p>
-  <p>Average Purchase:
-    <input type="text" id="avgPurchase"/>
-  </p>
-  <p>
-    <input id="submit" type="submit" value="Submit" onclick="submit"/>
-  </p>
-</form>
-</table>
-<script type="text/javascript" src="donut.js"></script>
+  <div class="kitty">
+    <p>
+      <a href="https://www.youtube.com/watch?v=8Q8NpRBwBbE">
+      <img src="http://vignette2.wikia.nocookie.net/nyancat/images/d/d7/Donutcat.gif/revision/latest?cb=20130616122235" height="100" width="100"/></a>
+    </p>
+  </div>
+  <h1>Top Pot Donuts</h1>
+  <div class="linkbar">
+    <div class="one"><a href="http://www.google.com">About</a></div>
+    <div class="one"><a href="http://www.google.com">Reviews</a></div>
+    <div class="one"><a href="http://www.google.com">Menu</a></div>
+    <div class="one"><a href="http://www.google.com">Contact Us</a></div>
+  </div>
+  <ul>
+    <h2>Description:</h2>
+    <p>Chase laser kick up litter and why must they do that. Stare at ceiling destroy couch, but who's the baby, yet knock dish off table head butt cant eat out of my own dish for rub face on everything, and find empty spot in cupboard and sleep all day.
+      Knock dish off table head butt cant eat out of my own dish put toy mouse in food bowl run out of litter box at full speed or peer out window, chatter at birds, lure them to mouth but brown cats with pink ears refuse to leave cardboard box yet purr
+      for no reason for chase mice. Shake treat bag. Hide from vacuum cleaner need to chase tail, yet find empty spot in cupboard and sleep all day. </p>
+    <p>Chase mice. Loves cheeseburgers. Stare at ceiling stare at ceiling. Get video posted to internet for chasing red dot leave fur on owners clothes then cats take over the world. Lick arm hair destroy couch rub face on owner for brown cats with pink ears. Eat grass, throw it back up behind the couch, so scream at teh bath. Stare at ceiling hate dog. Cat slap dog in face hate dog need to chase tail, or brown cats with pink ears so put toy mouse in food bowl run out of litter box at full speed play riveting piece on synthesizer keyboard make meme, make cute face. Chase ball of string why must they do that, for meow all night having their mate disturbing sleeping humans. Play time cat snacks, yet sleep on dog bed, force dog to sleep on floor throwup on your pillow. Refuse to drink water except out of someone's glass scamper cat slap dog in face refuse to drink water except out of someone's glass sit by the fire. Scamper jump off balcony, onto stranger's head peer out window, chatter at birds, lure them to mouth so lounge in doorway and eat a plant, kill a hand so paw at your fat belly so hack up furballs. Sleep on dog bed, force dog to sleep on floor scratch leg; meow for can opener to feed me. Cat snacks i like big cats and i can not lie or ignore the squirrels, you'll never catch them anyway chew iPad power cord. Roll on the floor purring your whiskers off hunt anything that moves, for stare at wall turn and meow stare at wall some more meow again continue staring . Mew.</p>
+    <div class="two">
+      <table id="donut-table">
+    </div>
+    <tr>
+      <th>Location</th>
+      <th scope="col">7:00 AM</th>
+      <th scope="col">8:00 AM</th>
+      <th scope="col">9:00 AM</th>
+      <th scope="col">10:00 AM</th>
+      <th scope="col">11:00 AM</th>
+      <th scope="col">12:00 PM</th>
+      <th scope="col">1:00 PM</th>
+      <th scope="col">2:00 PM</th>
+      <th scope="col">3:00 PM</th>
+      <th scope="col">4:00 PM</th>
+      <th scope="col">5:00 PM</th>
+      <th scope="col">Total</th>
+    </tr>
+    <legend>
+      <form action="index.html" id="new-store">
+        <h3 class="formtitle">Store Creator</h3>
+        <p>Location Name:
+          <input type="text" id="storeLocation" />
+        </p>
+        <p>Minimum Customers:
+          <input type="text" id="minCustomer" />
+        </p>
+        <p>Maximum Customers:
+          <input type="text" id="maxCustomer" />
+        </p>
+        <p>Average Purchase:
+          <input type="text" id="avgPurchase" />
+        </p>
+        <p>
+          <input id="submit" type="submit" value="Submit" onclick="submit" />
+        </p>
+      </form>
+    </legend>
+    </table>
+    <!-- <p class="donut"><img src="img/sprinkledonut.jpg"/>
+    </p> -->
+    <p>
+      <div class="footer">
+      <div class="footerimg"><img src="img/glazeddonut.jpg" height="100" width="100"/></div>
+      <div class="footerimg"><img src="img/cruller.jpg"height="100" width="100"/></div>
+      <div class="footerimg"><img src="img/chocodonut.jpg"height="100" width="100"/></div>
+      <div class="footerimg"><img src="img/cakedonut.jpg"height="100" width="100"/></div>
+      <div class="footerimg"><img src="img/jellydonut.jpg"height="100" width="100"/></div>
+    </p>
+    <script type="text/javascript" src="donut.js"></script>
 
 </body>
+
 </html>
