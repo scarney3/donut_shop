@@ -2,14 +2,16 @@
   font-family: 'Raleway', sans-serif;
 }
 body {
-  background-color: #351E00;
+  background-color: #03497E;
+  width: 100%;
+  margin: auto;
 }
 h1 {
   text-align: center;
-  font-family: French Script MT;
+  font-family: magneto;
   font-size: 100px;
-  color: #FFB03B;
-  background-color: #FF8598;
+  color: white;
+  background-color: #FEB228;
   margin: auto;
   padding: 5px;
 }
@@ -20,7 +22,7 @@ h1 {
   display: inline-block;
   position: relative;
   border-radius: 5px;
-  border: 2px solid #6495ED;
+  border: 3px solid #6495ED;
   background-color: #7ABAF2;
   height: 20px;
   width: 120px;
@@ -30,6 +32,10 @@ h1 {
   padding: 20px;
   /*left: 600px;*/
   float: right;
+  opacity:0.5;
+}
+.one:hover {
+  opacity:1;
 }
 ul h2 {
   color: #FFB03B;
